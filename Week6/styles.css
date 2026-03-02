@@ -3,7 +3,7 @@
 /*Body*/
 body{
 	font-family: Arial, Helvetica, sans-serif;
-	background: url('background.jpg') no-repeat center fixed;
+	background: url('images/background.jpg') no-repeat center fixed;
 }
 /*Main*/
 main{
@@ -13,7 +13,7 @@ main{
 }
 /*Header*/
 header{
-	background: url('logo.png') no-repeat right;
+	background: url('images/logo.png') no-repeat right;
 	text-align: center;
 	color: white;
 	padding: 20px;
