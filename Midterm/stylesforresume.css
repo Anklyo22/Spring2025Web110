@@ -1,0 +1,86 @@
+/*Logan Mothersbaugh--3/9--Style Sheet*/
+
+/*Body*/
+body{
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+}
+
+/*The overall grid layout of the whole page*/
+.resume-layout{
+	display:grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: auto auto;
+	gap: 0;
+	width: 100%;
+	min-height:100vh;
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 2vw;
+	font-weight: bold;
+}
+
+/*Left Column*/
+.contact{
+	background-color: #FFD700;
+	grid-column: 1 / 2 ;
+	grid-row: 1 / 3;
+	flex-direction: column;
+}
+
+/*Top Middle*/
+.education{
+	background-color: #00004F;
+	color: white;
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+}
+/*Bottom Middle*/
+.certifications{
+	background-color: #808080;
+	color: black;
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+}
+
+/*Right Side*/
+.work{
+	background-color: 008080;
+	grid-column:3 / 4;
+	grid-row:1 / 3;
+}
+
+.imgs{
+	width: 300px;
+	height: auto;
+}
+
+/*The CSS to modify all of the nav aspects, mostly similar across all pages*/
+ul {
+		list-style-type: none;
+}
+nav{
+	font-weight: bold;
+	text-align: center;
+	color: #000000;
+}
+nav a {
+	text-decoration: none;
+	color: #29485d;
+	padding: 10px;
+}
+nav a:hover {
+	color: #ff5733
+}
+
+/*Gold #FFD700*/
+/*Teal #008080*/
+/*Navy #000080*/
+/*Grey #808080*/
+
