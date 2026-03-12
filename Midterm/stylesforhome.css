@@ -1,0 +1,39 @@
+/*Logan Mothersbaugh--3/9--Style Sheet*/
+
+/*Body*/
+body{
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background: url('images/homeback.gif') no-repeat center fixed;
+	background-size: cover;
+	font-weight: bold;
+	font-size: 4.25vh;
+	text-align: center;
+	color: #FFD700;
+}
+
+/*Allows me to center all of the content on the page*/
+.container{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*The CSS to modify all of the nav aspects, mostly similar across all pages*/
+ul {
+		list-style-type: none;
+}
+nav{
+	font-weight: bold;
+	text-align: center;
+	color: #000000;
+}
+nav a {
+	text-decoration: none;
+	color: #FFD700;
+	padding: 10px;
+}
+nav a:hover {
+	color: #ff5733
+}
