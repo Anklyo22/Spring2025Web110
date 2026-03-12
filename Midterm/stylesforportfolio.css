@@ -1,0 +1,101 @@
+/*Logan Mothersbaugh--3/9--Style Sheet*/
+
+/*Body*/
+body{
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #000000;
+}
+/*Sets the grid layout for the whole page*/
+.portfolio-layout{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows: auto 1fr 1fr;
+	gap: 1vh;
+	width: 100%;
+	min-height:100vh;
+}
+
+/*The side bar on the left that contains the nav tabs and name*/
+.leftcolumn{
+	background-color: #008080;
+	grid-column: 1 / 2 ;
+	grid-row: 1 / 4;
+	display: flex;
+	flex-direction: column;
+}
+
+/*Manages where the projects are hyperlinked*/
+.num1{
+	background-color: #008080;
+	grid-column: 2 / 3 ;
+	grid-row: 1 / 2;
+	text-align: center;
+}
+
+.num2{
+	background-color: #008080;
+	grid-column: 3 / 4 ;
+	grid-row: 1 / 2;
+	text-align: center;
+}
+
+.num3{
+	background-color: #008080;
+	grid-column: 4 / 5 ;
+	grid-row: 1 / 2;
+	text-align: center;
+}
+
+/*Manages the descriptions area of the portfolio*/
+.num1desc{
+	background-color: #808080;
+	grid-column: 2 / 3 ;
+	grid-row: 2 / 4;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.num2desc{
+	background-color: #808080;
+	grid-column: 3 / 4 ;
+	grid-row: 2 / 4;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.num3desc{
+	background-color: #808080;
+	grid-column: 4 / 5 ;
+	grid-row: 2 / 4;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+/*The CSS to modify all of the nav aspects, mostly similar across all pages*/
+ul {
+		list-style-type: none;
+}
+nav{
+	font-weight: bold;
+	text-align: center;
+	color: #000000;
+	font-size: 3vh;
+}
+nav a {
+	text-decoration: none;
+	color: #29485d;
+	padding: 10px;
+}
+nav a:hover {
+	color: #ff5733
+}
+
+.pngs{
+	width: 200px;
+	height: auto;
+	justify-content: center;
+}
