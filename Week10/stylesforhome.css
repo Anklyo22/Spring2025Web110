@@ -1,0 +1,29 @@
+/*Logan Mothersbaugh 4/8 */
+/* Table styling */
+table {
+    border: 2px solid #222;
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+/* Table headers and data cells */
+th, td {
+    border: 2px solid #222;
+    padding: 0.5em;
+    text-align: center;
+}
+
+/* Movie title alignment */
+.movie-title {
+    text-align: left;
+}
+
+/* Alternating row colors */
+tr:nth-child(odd) {
+    background-color: #f4e1d2;
+}
+
+tr:nth-child(even) {
+    background-color: #c5dff8;
+}
