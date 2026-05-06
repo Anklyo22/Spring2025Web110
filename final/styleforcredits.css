@@ -28,6 +28,25 @@ body {
 
 }
 
+nav {
+    margin-top: 5px;
+	grid-column: 2/3;
+	grid-row: 4/5;
+	background-color: #C8A2C8;
+	text-align: center;
+	color: #1E1E1E;
+	
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+	
+}
+
 nav a {
     text-decoration: none;
 	
