@@ -1,0 +1,73 @@
+/*Logan Mothersbaugh 5/2*/
+h3, p {
+    text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	padding: 1em;
+	width: 90%;
+	max-width: 600px;
+}
+
+input,
+select,
+textarea {
+	width: 100%;
+	margin-bottom: 1em;
+	padding: 10px;
+}
+
+
+input, select, textarea {
+    margin-bottom: 0.5em;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav{
+	font-weight: bold;
+	text-align: center;
+	color: #000000;
+	
+}
+nav a {
+	text-decoration: none;
+	color: #228B22;
+	padding: 10px;
+	display: block;
+	
+}
+nav a:hover {
+	color: #ff5733;
+}
+
+* {
+	box-sizing: border-box;
+	background-color: #000000;
+	color: #228B22;
+}
+
+.list {
+	width: 100%;
+	max-width: 600px;
+    padding: 5px;
+    background-color: #228B22;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+	
+}
+
+.page {
+	max-width: 1500px;
+	margin: 0 auto;
+	text-align: center;
+	
+}
