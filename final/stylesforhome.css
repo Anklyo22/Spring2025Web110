@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	background-color: #000000;
+	color: white;
+	
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+	
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+	
+}
+
+/* Navigation */
+nav {
+    margin-top: 20px;
+	
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+	
+}
+
+nav a {
+    text-decoration: none;
+	
+}
+
+/* Main content sections */
+.page {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100vh;
+	padding: 0 40px;
+	background: url('images/background.gif') repeat center fixed;
+	
+}
+
+.box1 {
+    width: 300px;
+    padding: 5px;
+    background-color: #228B22;
+    border-radius: 20px;
+	align-items: center;
+	justify-content: flex-start;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+	
+}
+
+.box1 img{
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	
+}
+
+.LeftMid {
+	padding: 20px;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+	background-color: #228B22;
+	color: white;
+	
+}
+
+.box2 {
+    width: 300px;
+    padding: 5px;
+    background-color: #228B22;
+    border-radius: 20px;
+	align-items: center;
+	justify-content: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+	
+}
+
+.box2 img{
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	
+}
+
+.MidMid {    
+	padding: 20px;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+	background-color: #228B22;
+	color: white;
+	
+}
+
+.box3 {
+    width: 300px;
+    padding: 5px;
+    background-color: #228B22;
+    border-radius: 20px;
+	align-items: center;
+	justify-content: flex-end;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+	
+}
+
+.box3 img{
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	
+}
+
+.RightMid {
+    padding: 20px;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+	background-color: #228B22;
+	color: white;
+	
+}
+
+/* Contact section */
+Contact {
+    text-align: center;
+	justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+}
